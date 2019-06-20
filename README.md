@@ -1,10 +1,10 @@
-# Timer
+# stepTimer
 
 small utility to measure time left after n step of a n equally long tasks, the time withing to tasks and the total time.
 The utility is a bit buggy though... please contribute :)
 
 ```python
-from timer import Timer
+from stepTimer import Timer
 
 timer = timer(nsteps = 1000)
 

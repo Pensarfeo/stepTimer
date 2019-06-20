@@ -4,14 +4,14 @@ with open("README.md", "r") as fh:
     long_description = fh.read()
 
 setuptools.setup(
-    name = "dataSaver",
+    name = "stepTimer",
     version = "0.0.1",
     author = "Pedro A. Favuzzi",
     author_email = "pa.favuzzi@gmail.com",
     description = "Utility to save data to cvs as an easy (and very basic) to read and use alternative to tensorboard",
     long_description = long_description,
     long_description_content_type = "text/markdown",
-    url = "https://github.com/Pensarfeo/dataSaver",
+    url = "https://github.com/Pensarfeo/stepTimer",
     packages = setuptools.find_packages(),
     classifiers = [
         "Programming Language :: Python :: 3",
