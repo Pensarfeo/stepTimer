@@ -29,8 +29,13 @@ class Timer:
             print(e)
         return timeString
     
-    def elapsedTot(self):
-        return self.printTime(time.time() - self.start)
+    def elapsedTot(self, ms = False):
+        elapsed = time.time() - self.start
+        if not ms:
+            elapsed = self.printTime(elapsed)
+        
+        return elapsed
+
 
     def left(self, step = None):
         self.elapsed(step = step) if step else None
